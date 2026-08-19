@@ -6,6 +6,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -21,11 +22,29 @@
             font-weight: bold;
             color: #000;
         }
+        .responsible-use-note {
+            max-width: 620px;
+            margin-top: 20px;
+            padding: 16px 20px;
+            background-color: #e8f4ff;
+            border-left: 6px solid #0057b8;
+            color: #12304a;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .responsible-use-note blockquote {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <div class="sign">
         Cuidado has entrado en una pagina externa !!!
+    </div>
+    <div class="responsible-use-note">
+        <blockquote>
+            <p><strong>Aviso de uso responsable:</strong> este material debe utilizarse únicamente en pruebas autorizadas, entornos controlados o sistemas propios, con fines de validación y mejora de la seguridad. No debe emplearse sobre aplicaciones, servicios o datos de terceros sin permiso expreso.</p>
+        </blockquote>
     </div>
 </body>
 </html>
